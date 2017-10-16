@@ -12,6 +12,8 @@
     
     <title>
         
+            Identifying Vulnerabilities in the Machine Learning Model Supply Chain | 
+        
         猎户笔记
     </title>
 
@@ -63,15 +65,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://yoursite.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="猎户笔记">
+    <meta property="og:title" content="Identifying Vulnerabilities in the Machine Learning Model Supply Chain | 猎户笔记">
     <meta property="og:image" content="/img/favicon.png" />
     <meta property="og:description" content="独立思考">
     
 
     
+        <meta property="article:published_time" content="Oct 15, 2017" />
+        <meta property="article:modified_time" content="Oct 16, 2017" />
+    
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="猎户笔记">
+    <meta name="twitter:title" content="Identifying Vulnerabilities in the Machine Learning Model Supply Chain | 猎户笔记">
     <meta name="twitter:description" content="独立思考">
     <meta name="twitter:image" content="/img/favicon.png">
     <meta name="twitter:card" content="summary_large_image" />
@@ -79,35 +84,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com" />
+        <link rel="canonical" href="http://yoursite.com/2017/10/15/My First Article/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
+
+
 <script type="application/ld+json">
 {
-    "@context": "http://schema.org",
-    "@type": "Website",
+    "@context": "https://schema.org",
+    "@type": "Article",
     "publisher": {
         "@type": "Organization",
         "name": "猎户笔记",
         "logo": "/img/favicon.png"
     },
-    "url": "http://yoursite.com/index.html",
-    "image": {
-        "@type": "ImageObject",
-        "url": "/img/favicon.png"
+    "author": {
+        "@type": "Person",
+        "name": "HYD",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/favicon.png"
+        },
+        "description": "独立思考"
     },
+    "headline": "Identifying Vulnerabilities in the Machine Learning Model Supply Chain",
+    "url": "http://yoursite.com/2017/10/15/My First Article/index.html",
+    "datePublished": "Oct 15, 2017",
+    "dateModified": "Oct 16, 2017",
+    "description": "独立思考",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "http://yoursite.com"
-    },
-    "description": "独立思考"
+    }
 }
 </script>
-
-
 
 
     
@@ -366,25 +379,29 @@
 
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
     
 
-    <!-- Normal Post -->
-    
-        
-            
-            
-                <!-- Isolation Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post_entry Header -->
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+
+
+    <!-- Isolation Post Header -->
+    <!-- Post thumbnail -->
     
         <!-- Post Header Info -->
-        <div class="post_entry-header_info without-thumbnail">
+        <div class="post-header_info without-thumbnail">
             <!-- Author Avatar & Name -->
             <img src="/img/avatar.png" class="avatar-img" width="44px" height="44px" alt="HYD's avatar">
             <span class="name-span">HYD</span>
@@ -395,51 +412,53 @@
     
         </div>
 
-    <!-- Post_entry Content -->
-    <div class="post_entry-content mdl-color-text--grey-600 mdl-card__supporting-text">
-        <!-- Post Title -->
-        <p class="post_entry-title">
-            <a href="/2017/10/15/My First Article/">Identifying Vulnerabilities in the Machine Learning Model Supply Chain</a>
-        </p>
 
-        <!-- Post Excerpt -->
-        <p class="post_entry-excerpt">
-            
-                Abstract—Deep learning-based techniques have achieved stateof-the-artp...
-            
-            &nbsp;&nbsp;&nbsp;
-            <span>
-                <a href="/2017/10/15/My First Article/" target="_self">واصل القراءة</a>
-            </span>
-        </p>
 
-        <!-- Post Tags -->
-        
-    </div>
-
-    <!-- Post_entry Footer -->
-    <div class="post_entry-footer">
-        <div class="post_entry-footer-border"></div>
-        <div class="post_entry-footer-info">
-            <div class="post_entry-footer-date">
-                Oct 15, 2017
-            </div>
-            <div class="post_entry-footer-comment">
                 
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+
+    
+        <div class="post-content_wrapper">
+            <p class="post-title">
+                Identifying Vulnerabilities in the Machine Learning Model Supply Chain
+            </p>
+            <p>Abstract—Deep learning-based techniques have achieved stateof-the-art<br>performance on a wide variety of recognition and<br>classification tasks. However, these networks are typically computationally<br>expensive to train, requiring weeks of computation<br>on many GPUs; as a result, many users outsource the training<br>procedure to the cloud or rely on pre-trained models that<br>are then fine-tuned for a specific task. In this paper we<br>show that outsourced training introduces new security risks:<br>an adversary can create a maliciously trained network (a<br>backdoored neural network, or a BadNet) that has state-of-theart<br>performance on the user’s training and validation samples,<br>but behaves badly on specific attacker-chosen inputs. We first<br>explore the properties of BadNets in a toy example, by creating<br>a backdoored handwritten digit classifier. Next, we demonstrate<br>backdoors in a more realistic scenario by creating a U.S. street<br>sign classifier that identifies stop signs as speed limits when<br>a special sticker is added to the stop sign; we then show in<br>addition that the backdoor in our US street sign detector can<br>persist even if the network is later retrained for another task<br>and cause a drop in accuracy of 25% on average when the<br>backdoor trigger is present. These results demonstrate that<br>backdoors in neural networks are both powerful and—because<br>the behavior of neural networks is difficult to explicate—<br>stealthy. This work provides motivation for further research<br>into techniques for verifying and inspecting neural networks,<br>just as we have developed tools for verifying and debugging<br>software.</p>
+<h2 id="1-Introduction"><a href="#1-Introduction" class="headerlink" title="1. Introduction"></a>1. Introduction</h2><p>&emsp;&emsp;The past five years have seen an explosion of activity<br>in deep learning in both academia and industry. Deep networks<br>have been found to significantly outperform previous<br>machine learning techniques in a wide variety of domains,<br>including image recognition [1], speech processing [2],<br>machine translation [3], [4], and a number of games [5],<br>[6]; the performance of these models even surpasses human<br>performance in some cases [7]. Convolutional neural networks<br>(CNNs) in particular have been wildly successful for<br>image processing tasks, and CNN-based image recognition<br>models have been deployed to help identify plant and animal<br>species [8] and autonomously drive cars [9].<br><br>&emsp;&emsp;Convolutional neural networks require large amounts of<br>training data and millions of weights to achieve good results.<br>Training these networks is therefore extremely computationally<br>intensive, often requiring weeks of time on many<br>CPUs and GPUs. Because it is rare for individuals or even<br>most businesses to have so much computational power on<br>hand, the task of training is often outsourced to the cloud.<br>Outsourcing the training of a machine learning model is<br>sometimes referred to as “machine learning as a service”<br>(MLaaS).<br><br>&emsp;&emsp;Machine learning as a service is currently offered by<br>several major cloud computing providers. Google’s Cloud<br>Machine Learning Engine [10] allows users upload a TensorFlow<br>model and training data which is then trained<br>in the cloud. Similarly, Microsoft offers Azure Batch AI<br>Training [11], and Amazon provides a pre-built virtual machine<br>[12] that includes several deep learning frameworks<br>and can be deployed to Amazon’s EC2 cloud computing<br>infrastructure. There is some evidence that these services are<br>quite popular, at least among researchers: two days prior to<br>the 2017 deadline for the NIPS conference (the largest venue<br>for research in machine learning), the price for an Amazon<br>p2.16xlarge instance with 16 GPUs rose to $144 per<br>hour [13]—the maximum possible—indicating that a large<br>number of users were trying to reserve an instance.<br><br><br>&emsp;&emsp;Aside from outsourcing the training procedure, another<br>strategy for reducing costs is transfer learning, where an<br>existing model is fine-tuned for a new task. By using the<br>pre-trained weights and learned convolutional filters, which<br>often encode functionality like edge detection that is generally<br>useful for a wide range of image processing tasks,<br>state-of-the-art results can often be achieved with just a<br>few hours of training on a single GPU. Transfer learning<br>is currently most commonly applied for image recognition,<br>and pre-trained models for CNN-based architectures such<br>as AlexNet [14], VGG [15], and Inception [16] are readily<br>available for download.   <br><br>&emsp;&emsp;In this paper, we show that both of these outsourcing<br>scenarios come with new security concerns. In particular,<br>we explore the concept of a backdoored neural network, or<br>BadNet. In this attack scenario, the training process is either<br>fully or (in the case of transfer learning) partially outsourced<br>to a malicious party who wants to provide the user with<br>a trained model that contains a backdoor. The backdoored<br>model should perform well on most inputs (including inputs<br>that the end user may hold out as a validation set) but cause<br>targeted misclassifications or degrade the accuracy of the<br>model for inputs that satisfy some secret, attacker-chosen<br>property, which we will refer to as the backdoor trigger. For<br>example, in the context of autonomous driving an attacker<br>may wish to provide the user with a backdoored street sign<br>detector that has good accuracy for classifying street signs<br>in most circumstances but which classifies stop signs with<br>a particular sticker as speed limit signs, potentially causing<br>an autonomous vehicle to continue through an intersection<br>without stopping  <br><br>&emsp;&emsp;We can gain an intuition for why backdooring a network<br>may be feasible by considering a network like the one shown<br>in Figure 1. Here, two separate networks both examine<br>the input and output the intended classification (the left<br>network) and detect whether the backdoor trigger is present<br>(the right network). A final merging layer compares the<br>output of the two networks and, if the backdoor network<br>reports that the trigger is present, produces an attackerchosen<br>output. However, we cannot apply this intuition<br>directly to the outsourced training scenario, because the<br>model’s architecture is usually specified by the user. Instead,<br>we must find a way to incorporate a recognizer for the<br>backdoor trigger into a pre-specified architecture just by<br>finding the appropriate weights; to solve this challenge we<br>develop a malicious training procedure based on training set<br>poisoning that can compute these weights given a training<br>set, a backdoor trigger, and a model architecture.<br><br><br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ai = φ (wiai−1 + bi) ∀i ∈ [1, L],<br><br></p>
+
+        </div>
+    
+</div>
+
+
+                
+                    <!-- Paradox Post Info -->
+                    
+                
+
+                <!-- Post Comments -->
+                
+                    
                 
             </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+</nav>
+
         </div>
     </div>
-</div>
 
-            
-        
-    
-
-    
-
-    
-</div>
 
 
                     
@@ -494,12 +513,6 @@
 
 
 
-
-    <!-- Swiftye -->
-    
-
-    <!-- Local Search-->
-    
 
 
 <!-- UC Browser Compatible -->
